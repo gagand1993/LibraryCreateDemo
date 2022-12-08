@@ -5,7 +5,7 @@ import android.widget.Toast
 
 class MkToast(val mContext: Context) {
 
-    fun messagePrint(){
-        Toast.makeText(mContext, "Hello how are you", Toast.LENGTH_SHORT).show()
+    fun messagePrint(msg:String){
+        Toast.makeText(mContext, msg, Toast.LENGTH_SHORT).show()
     }
 }
