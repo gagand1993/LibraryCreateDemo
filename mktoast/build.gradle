@@ -55,7 +55,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.gagand1993'
                 artifactId = 'mktoast'
-                version = '1.0.5'
+                version = '1.0.6'
             }
         }
     }
