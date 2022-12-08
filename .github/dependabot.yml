@@ -13,6 +13,6 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "10:49"
+      time: "16:22"
       timezone: "Asia/Kolkata"
     open-pull-requests-limit: 10
