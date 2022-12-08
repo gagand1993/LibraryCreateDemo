@@ -29,6 +29,21 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+
+
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+
+        multipleVariants {
+            withSourcesJar()
+            withJavadocJar()
+            allVariants()
+        }
+    }
 }
 
 afterEvaluate {
@@ -38,7 +53,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.gagand1993'
                 artifactId = 'mktoast'
-                version = '1.0.2'
+                version = '1.0.3'
             }
         }
     }
